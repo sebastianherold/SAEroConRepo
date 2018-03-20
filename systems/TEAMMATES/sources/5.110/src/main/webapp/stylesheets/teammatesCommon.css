@@ -1,0 +1,1194 @@
+/*////////////////////////////////////////////////////////////
+/////////////////// Atomic Classes //////////////////////////
+//////////////////////////////////////////////////////////*/
+
+body {
+    padding: 60px 0 30px;
+}
+
+.editUncommonSettingsButton:hover {
+    cursor: pointer;
+}
+
+/*
+Apply to alert to override Bootstrap's default 3d alerts
+*/
+.alert {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.alert-warning,
+.alert-success,
+.alert-info,
+.alert-danger {
+    background-image: none;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-justify {
+    text-align: justify;
+}
+
+.background-color-white {
+    background-color: white;
+}
+
+.background-color-light-blue {
+    background-color: #eaeff5;
+}
+
+.background-color-light-green {
+    background-color: #e0eeee;
+}
+
+.background-color-medium-gray {
+    background-color: #e5e5e6;
+}
+
+.background-color-warning {
+    background-color: #fcf8e3;
+}
+
+.border-gray {
+    border: 1px solid #ddd;
+}
+
+.border-left-gray {
+    border-left: 1px solid #ddd;
+}
+
+.border-right-gray {
+    border-right: 1px solid #ddd;
+}
+
+.border-top-gray {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.bold-label {
+    font-weight: 700 !important;
+}
+
+.cell-hover {
+    background-color: #d9edf7 !important;
+}
+
+.cell-selected {
+    background-color: #d9edf7 !important;
+}
+
+.cell-selected-negative {
+    background-color: #fea3a3 !important;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-positive {
+    color: #108627;
+}
+
+.color-negative {
+    color: #e74c3c;
+}
+
+.color_neutral {
+    color: gray;
+}
+
+.color_orange {
+    color: #e46d0b;
+}
+
+.color_blue {
+    color: #4379D1;
+}
+
+.color-inherit {
+    color: inherit;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.constSumOptionsLabel {
+    padding-right: 15px;
+    max-width: 75%;
+}
+
+.ordered-table {
+    counter-reset: rownumber;
+}
+
+.ordered-table tr:not(.skip) {
+    counter-increment: rownumber;
+}
+
+.ordered-table tr td:first-child::before {
+    content: counter(rownumber) '.';
+    min-width: 1em;
+    margin-right: .5em;
+}
+
+.separate-content-holder {
+    height: 5em;
+    padding-top: 1em;
+    width: 100%;
+}
+
+/*
+Allow only mouse hover events for the element.
+!important is required to override Bootstrap .disabled class matches
+which usually match 2 classes (eg .btn.disabled)
+*/
+.mouse-hover-only {
+    pointer-events: auto !important;
+}
+
+.mouse-hover-only:active {
+    pointer-events: none !important;
+}
+
+.row-answered {
+    background-color: #dff0d8;
+}
+
+.row-selected {
+    background-color: #f5f5f5;
+}
+
+/*
+Apply to thead to make headers not bold.
+*/
+.font-weight-normal,
+.font-weight-normal > tr > th {
+    font-weight: normal;
+}
+
+.fill-plain {
+    background-color: #eaeff5;
+}
+
+.fill-primary {
+    background-color: #428bca;
+    color: white;
+}
+
+.fill-default {
+    background-color: #9E9E9E;
+    color: white;
+}
+
+.fill-info {
+    background-color: #c4e3f3;
+}
+
+.glyphicon-primary {
+    color: #428bca;
+}
+
+.glyphicon-danger {
+    color: red;
+}
+
+.glyphicon-gold {
+    color: #ffd700;
+}
+
+.glyphicon-flipped {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+
+.height-fixed-md {
+    min-height: 150px;
+    max-height: 250px;
+    overflow: auto;
+}
+
+.highlight-white {
+    color: white;
+}
+
+.inline,
+input.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.margin-bottom-7px {
+    margin-bottom: 7px;
+}
+
+.margin-bottom-10px {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-15px {
+    margin-bottom: 15px;
+}
+
+.margin-center-horizontal {
+    margin: 0 auto;
+}
+
+.min-height-0.checkbox,
+.min-height-0 {
+    min-height: 0;
+}
+
+.margin-right-10px {
+    margin-right: 10px;
+}
+
+.margin-top-0 {
+    margin-top: 0;
+}
+
+.margin-top-2px {
+    margin-top: 2px;
+}
+
+.margin-top-7px {
+    margin-top: 7px;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.padding-15px {
+    padding: 15px;
+}
+
+.padding-right-10px {
+    padding-right: 10px;
+}
+
+.padding-right-25px {
+    padding-right: 25px !important;
+}
+
+.padding-left-35px {
+    padding-left: 35px;
+}
+
+.padding-left-7px {
+    padding-left: 7px;
+}
+
+.margin-left-7px {
+    margin-left: 7px;
+}
+
+.margin-left-auto {
+    margin-left: auto;
+}
+
+.narrow-slight {
+    width: 90%;
+}
+
+.overlay {
+    pointer-events: none;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.padding-top-0,
+.padding-top-0.checkbox {
+    padding-top: 0;
+}
+
+.text-large {
+    font-size: 18px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-color-blue {
+    color: blue;
+}
+
+.text-color-black {
+    color: #000;
+}
+
+.text-color-primary {
+    color: #428bca;
+}
+
+.text-color-gray {
+    color: gray;
+}
+
+.text-color-green {
+    color: green;
+}
+
+.text-color-red {
+    color: red;
+}
+
+.text-color-white {
+    color: white;
+}
+
+.text-preserve-space {
+    white-space: pre-wrap;
+}
+
+.word-wrap-break {
+    word-wrap: break-word;
+}
+
+.text-strike {
+    text-decoration: line-through;
+}
+
+.flex {
+    display: flex;
+}
+
+.form-control.width-100-pc,
+.width-100-pc {
+    width: 100%;
+}
+
+.width-75-pc {
+    width: 75%;
+}
+
+.width-auto {
+    width: auto;
+}
+
+@media print {
+    a[href]:after {
+        content: none;
+    }
+
+    .no-print {
+        display: none;
+    }
+}
+
+/*////////////////////////////////////////////////////////////
+///////////////////////// NavBar ////////////////////////////
+//////////////////////////////////////////////////////////*/
+
+.comment-list {
+    padding-top: 15px;
+}
+
+.well-default {
+    background-color: #d9edf7;
+    background-image: none;
+    border: 0;
+    -webkit-box-shadow: 0 0 0 0;
+    -moz-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+}
+
+.well-narrow {
+    margin: 0 auto;
+    width: 60%;
+}
+
+@media (max-width: 767px) {
+    .well-sm-wide {
+        width: 100%;
+    }
+}
+
+.well-plain {
+    background-color: #eaeff5;
+    background-image: none;
+    border: 0;
+    -webkit-box-shadow: 0 0 0 0;
+    -moz-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+}
+
+.panel-narrow {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.link-in-dark-bg:link {
+    color: #f2fcac;
+}
+
+.link-in-dark-bg:active {
+    color: yellow;
+}
+
+.link-in-dark-bg:hover {
+    color: yellow;
+}
+
+.link-in-dark-bg:visited {
+    color: white;
+}
+
+.icon-button {
+    background: transparent;
+    border: 0;
+}
+
+.tool-tip-decorate {
+    border-bottom: 1px dotted #808080;
+    text-decoration: none;
+}
+
+.text-box-error {
+    border: 2px solid red;
+}
+
+/* Code to morph navbar to hamburger at tablet size (992px) instead of phone size (768px) */
+/* Prevents content overflow in navbar*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container > .navbar-header {
+        float: none;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .navbar > .container .navbar-brand {
+        margin-left: 0;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .container > .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+        max-height: 345px; /* Avoids scrollbar from showing up */
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    /* Since the original bootstrap code has !important,
+    we need to match with !important to override */
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+
+    .navbar-nav > li {
+        float: none;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+
+    .collapsing {
+        overflow: hidden!important;
+    }
+
+    /* Makes container exhibit container-fluid behavior */
+    .container {
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        max-height: 360px;
+    }
+}
+
+/*////////////////////////////////////////////////////////////
+///////////////////////// Affix /////////////////////////////
+//////////////////////////////////////////////////////////*/
+
+.affix {
+    position: fixed;
+    top: 100px;
+}
+
+.affix > li > a {
+    color: gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.affix > li.active > a {
+    color: #31708f;
+    font-weight: 700;
+    border-left: 2px solid #31708f;
+}
+
+.affix > li > .nav {
+    font-size: 12px;
+}
+
+.affix > li > .nav > li > a {
+    color: gray;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+}
+
+.affix > li.active > .nav {
+    display: block;
+    width: 100%;
+}
+
+.affix > li > .nav > li.active > a {
+    color: #31708f;
+    font-weight: 700;
+    border-left: 2px solid #31708f;
+}
+
+.affix > li:not (.active ) > .nav {
+    display: none;
+}
+
+.affix-top {
+    position: relative;
+}
+
+.affix-bottom {
+    position: absolute;
+}
+
+/*////////////////////////////////////////////////////////////
+/////////////////////// Static page /////////////////////////
+//////////////////////////////////////////////////////////*/
+.navbar-brand {
+    padding: 0;
+}
+
+.btn-login {
+    color: #00FF00;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.btn-login:focus,
+.btn-login:hover,
+.btn-login:active {
+    color: #00FF00;
+}
+
+@media (max-width: 768px) {
+    .btn-login {
+        width: 100%;
+        text-align: left;
+        padding: 6px 0;
+    }
+}
+
+/* prevent dom height from jumping, adjust as needed */
+#testimonialContainer {
+    min-height: 14rem;
+}
+
+#raisedEdge {
+    position: relative;
+    z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+    #raisedEdge {
+        top: -2em;
+    }
+}
+
+/*////////////////////////////////////////////////////////////
+/////////////////////// Main Content ////////////////////////
+//////////////////////////////////////////////////////////*/
+
+.bs-example {
+    background-color: #fafafa;
+    border-color: #e5e5e5 #eee #eee;
+    border-style: solid;
+    border-width: 1px 0;
+    -webkit-box-shadow: inset 0 3px 6px rgba(0, 0, 0, .05);
+    -moz-box-shadow: inset 0 3px 6px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, .05);
+    margin: 0 -15px 15px;
+    padding: 45px 15px 15px;
+    position: relative;
+}
+
+.bs-example:after {
+    color: #bbb;
+    content: 'Example';
+    font-size: 12px;
+    font-weight: 700;
+    left: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 15px;
+}
+
+.bs-example .container {
+    width: auto;
+}
+
+.bs-example + .highlight {
+    margin: -15px -15px 15px;
+    border-radius: 0;
+    border-width: 0 0 1px;
+}
+
+.course-id-table-width {
+    min-width: 100px;
+}
+
+.question-recommended-length {
+    color: gray;
+}
+
+.question-recommended-length > span {
+    margin-left: 7px;
+    border-bottom: 1px dotted;
+}
+
+.question-recommended-length > input {
+    width: 80px;
+    display: inline;
+}
+
+.session-name-table-width {
+    min-width: 130px;
+}
+
+.teamMembersDetailsCell {
+    vertical-align: middle;
+    padding-left: 30px;
+}
+
+.teamMembersPhotoCell {
+    padding-bottom: 5px;
+}
+
+.visibilityMessage > ul {
+    margin-top: 5px;
+    padding: 5px 25px;
+}
+
+.visibilityMessage > ul > li {
+    cursor: default;
+}
+
+.visibilityMessage > ul > li > a {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .bs-example {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        -webkit-border-radius: 4px 4px 0 0;
+        -moz-border-radius: 4px 4px 0 0;
+        border-radius: 4px 4px 0 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .bs-example + .highlight {
+        border-width: 1px;
+        -webkit-border-bottom-left-radius: 4px;
+        -moz-border-radius-bottomleft: 4px;
+        border-bottom-left-radius: 4px;
+        -webkit-border-bottom-right-radius: 4px;
+        -moz-border-radius-bottomright: 4px;
+        border-bottom-right-radius: 4px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: -16px;
+    }
+}
+
+.icon-sort {
+    display: block;
+    float: right;
+    height: 17px;
+    margin-top: 1px;
+    width: 12px;
+}
+
+.feedback-path-title,
+.visibility-title {
+    color: #2aabd2;
+}
+
+/*
+Default to alert color for visibility titles used within an alert context.
+*/
+.alert .visibility-title {
+    color: inherit;
+}
+
+.filename-preview {
+    border: 0;
+    background-color: white;
+    text-overflow: ellipsis;
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+}
+
+.profile-pic-edit {
+    max-height: 450px;
+    width: 100%;
+    display: table;
+}
+
+.profile-pic-edit [class*='col-'] {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.profile-pic-edit > img {
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.profile-pic-edit-col {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
+
+/* used on the div/td that contains the img */
+.profile-pic-icon-hover,
+.profile-pic-icon-click {
+    overflow: hidden;
+    cursor: default;
+}
+
+.profile-pic-icon-hover > img,
+.profile-pic-icon-click > img {
+    width: 40px;
+    height: 40px;
+}
+
+.profile-pic-icon-hidden {
+    display: none;
+}
+
+.profile-pic-edit-toolbar {
+    margin: 10px;
+}
+
+.profile-pic-edit-container {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.profile-pic-file-selector {
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-pic-file-selector > #studentPhoto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    cursor: inherit;
+    display: block;
+}
+
+.questionType {
+    display: inline-block;
+    width: 90%;
+    margin-right: 5px;
+}
+
+.time-zone-info-box {
+    margin: 7px 0 0 0;
+    padding: 10px;
+}
+
+.unsorted {
+    background: url(../images/sortSideButton.png);
+}
+
+.sorted-ascending {
+    background: url(../images/sortUpButton.png);
+}
+
+.sorted-descending {
+    background: url(../images/sortDownButton.png);
+}
+
+.button-sort-ascending:hover,
+.button-sort-none:hover,
+.button-sort-descending:hover {
+    cursor: pointer;
+}
+
+.link-disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: .5;
+}
+
+.link-disabled:hover {
+    text-decoration: none;
+}
+
+.cursor-default {
+    cursor: default;
+}
+
+.student-profile-pic-view-link {
+    text-align: center;
+}
+
+.table-column-no-float {
+    float: none !important;
+}
+
+.fixed-table-layout {
+    table-layout: fixed;
+}
+
+.question-description {
+    min-height: 120px;
+}
+
+.content-editor {
+    padding: 5px 10px;
+}
+
+.content-editor:before {
+    display: none;
+}
+
+.content-editor.empty:before {
+    display: block;
+    color: gray;
+    content: attr(data-placeholder);
+}
+
+.remind-no-response {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+/* features page */
+
+.img-responsive.features-page-img {
+    max-width: 75%;
+}
+
+@media screen and (min-width: 480px) {
+    .features-page-text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.features-page-text-bottom {
+    margin-top: 15px;
+}
+
+/*////////////////////////////////////////////////////////////
+/////////////////////// Modal Dialogs ///////////////////////
+//////////////////////////////////////////////////////////*/
+
+.modal-header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.modal-footer {
+    padding: 14px 15px 15px;
+    margin-top: 0;
+}
+
+/*////////////////////////////////////////////////////////////
+////////////////// Dropdowns with Submenus //////////////////
+//////////////////////////////////////////////////////////*/
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu > a:after {
+    display: block;
+    content: ' ';
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #cccccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover > a:after {
+    border-left-color: #ffffff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/*////////////////////////////////////////////////////////////
+////////////////////////// Footer ///////////////////////////
+//////////////////////////////////////////////////////////*/
+
+#footerComponent {
+    background-color: black;
+    background-image: linear-gradient(to bottom, #3c3c3c 0, #222 100%);
+    bottom: 0;
+    color: gray;
+    height: 20px;
+    margin: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+}
+
+/*////////////////////////////////////////////////////////////
+////////////////////////// Back To Top ///////////////////////////
+//////////////////////////////////////////////////////////*/
+
+.back-to-top-left {
+    position: fixed;
+    bottom: 8em;
+    left: 0;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, .8);
+    font-size: 12px;
+    padding: .8em;
+    display: none;
+}
+
+.back-to-top-right {
+    position: fixed;
+    bottom: 8em;
+    right: 0;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, .8);
+    font-size: 12px;
+    padding: .8em;
+    display: none;
+}
+
+.back-to-top-left:hover {
+    background-color: rgba(135, 135, 135, .5);
+}
+
+.back-to-top-right:hover {
+    background-color: rgba(135, 135, 135, .5);
+}
+
+/*////////////////////////////////////////////////////////////
+////////////////////////// Email Log Text ///////////////////////////
+//////////////////////////////////////////////////////////*/
+
+/*
+Prevent Long URL From Breaking Out of Container
+*/
+.emailLog-text {
+    -ms-word-break: break-all;
+    /* Be VERY careful with this, breaks normal words wh_erever */
+    word-break: break-all;
+    /* Non standard for webkit */
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.highlight {
+    background-color: #FFFF88;
+}
+
+/*//////////////////////////////////////////////////////////
+////////////////////// Responsiveness //////////////////////
+//////////////////////////////////////////////////////////*/
+
+@media (max-width: 767px) {
+    .mobile-no-padding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .mobile-align-left {
+        text-align: left !important;
+    }
+
+    .mobile-no-pull {
+        float: inherit !important;
+    }
+
+    .mobile-margin-top-10px {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .tablet-no-padding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .tablet-align-left {
+        text-align: left !important;
+    }
+
+    .tablet-bottom-align {
+        vertical-align: bottom;
+    }
+
+    .tablet-margin-10px {
+        margin: 10px;
+    }
+
+    .tablet-no-pull {
+        float: inherit !important;
+    }
+
+    .tablet-margin-top-10px {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .tablet-no-mobile-margin-top-20px {
+        margin-top: 20px;
+    }
+
+    .tablet-no-mobile-margin-top-0 {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .tablet-no-padding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .tablet-bottom-align {
+        vertical-align: bottom;
+    }
+
+    .tablet-margin-10px {
+        margin: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text-nowrap {
+        white-space: nowrap;
+    }
+}
+
+.courses-table-dropdown {
+    float: left;
+    margin-right: 5px;
+}
+
+/*
+Glyphicon for success status messages
+*/
+
+.icon-success:before {
+    font-family: 'Glyphicons Halflings';
+    display: inline-block;
+    padding-right: .5em;
+    content: '\e084';
+    vertical-align: top;
+}
