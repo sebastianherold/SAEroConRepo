@@ -1,0 +1,31 @@
+Modules
+	apache-utils
+	basic-utils
+	graphviz
+	kitfox
+	log
+	log-skeleton
+	prom-contexts
+	prom-framework
+	prom-models
+	prom-plugins
+	saxon
+	widgets
+	
+Allowed Dependencies
+	apache-utils -> prom-framework,prom-contexts
+	basic-utils -> prom-framework,prom-contexts
+	graphviz -> prom-framework,kitfox,prom-contexts
+	kitfox
+	log -> prom-models,prom-framework,basic-utils,prom-contexts
+	log-skeleton -> prom-contexts,prom-framework,graphviz,log
+	prom-contexts -> prom-framework
+	prom-framework
+	prom-models -> prom-framework
+	prom-plugins -> prom-models,prom-framework,prom-contexts
+	saxon
+	widgets -> prom-contexts,prom-framework,prom-models
+	
+Mappings
+	#Each module is represented by eactly one project in the source code folder (module name + version number). 
+	#The source code in one project, and only this source code, is mapped to the corresponding source code.

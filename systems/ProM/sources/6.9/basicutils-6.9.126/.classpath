@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/prom-framework-6.9.97"/>
+	<classpathentry exported="true" kind="lib" path="lib/colt-1.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/FilterableSortableTablePanel-latest.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flanagan-0.9alpha.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jas-plotter-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/javacsv-2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/javailp-1.2a.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jbpt-0.2.429.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jcommon-1.0.24.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jfreechart-1.0.19.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jgrapht-jdk1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jlfgr-1_0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jmathplot-unknown.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jung-algorithms-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jung-api-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jung-graph-impl-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jung-io-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jung-visualization-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jython-standalone-2.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/openide-lookup-1.9-patched-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/prefuse-core-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/trove4j-3.0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/ujmp-complete-0.2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/xstream-1.4.9.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/prom-contexts-6.9.56"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

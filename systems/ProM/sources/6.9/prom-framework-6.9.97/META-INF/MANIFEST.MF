@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.4
+Created-By: 1.8.0_161-b12 (Oracle Corporation)
+Built-By: hudson
+Specification-Title: ProM-Framework-@{module}
+Specification-Version: 6.9.97
+Specification-Vendor: www.processmining.org
+Implementation-Title: ProM-Framework
+Implementation-Version: 6.9.97 May 29 2019
+Implementation-Vendor: www.processmining.org
+Sealed: false
+

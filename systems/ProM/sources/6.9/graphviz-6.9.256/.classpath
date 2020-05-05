@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/grappa.jar"/>
+	<classpathentry kind="lib" path="lib/itextpdf.jar"/>
+	<classpathentry kind="lib" path="lib/commons-compress-1.13.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.9.jar"/>
+	<classpathentry kind="lib" path="lib/freehep-graphics2d-2.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/freehep-graphicsio-2.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/freehep-graphicsio-svg-2.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/freehep-graphicsio-emf-2.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/freehep-graphicsio-ps-2.1.2.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/prom-contexts-6.9.56"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/prom-framework-6.9.97"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/kitfox-6.9.6"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

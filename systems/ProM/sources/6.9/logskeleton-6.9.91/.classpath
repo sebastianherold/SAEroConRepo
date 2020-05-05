@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/log-6.9.380"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/prom-framework-6.9.97"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/graphviz-6.9.256"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/prom-contexts-6.9.56"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/pdc2016-6.9.18"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/widgets-6.9.234"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/pdc2017-6.9.22"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/pdc2019-6.9.19"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/basicutils-6.9.126"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

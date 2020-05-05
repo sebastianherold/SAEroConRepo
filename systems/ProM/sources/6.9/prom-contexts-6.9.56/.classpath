@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="lib/guava-16.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="lib/Spex-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/Uitopia-0.6-20181030.jar"/>
+	<classpathentry kind="lib" path="lib/UITopiaResources-0.5.jar"/>
+	<classpathentry kind="lib" path="lib/slickerbox-1.0rc1.jar"/>
+	<classpathentry kind="lib" path="lib/TableLayout-20050920.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/prom-framework-6.9.97"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/prom-models-6.9.32"/>
+	<classpathentry kind="lib" path="lib/jargs-latest.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

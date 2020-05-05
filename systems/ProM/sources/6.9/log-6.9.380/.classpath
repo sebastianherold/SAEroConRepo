@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="lib/OpenXES-20181205.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/Uitopia-0.6-20181030.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.9.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/univocity-parsers-2.8.3.jar"/>
+	<classpathentry kind="lib" path="lib/opencsv-2.4-patched.jar"/>
+	<classpathentry kind="lib" path="lib/guava-16.0.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/prom-framework-6.9.97"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/prom-contexts-6.9.56"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/widgets-6.9.234"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/basicutils-6.9.126"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/apacheutils-6.9.122"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/saxon-6.9.69"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/prom-models-6.9.32"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
